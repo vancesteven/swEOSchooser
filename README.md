@@ -23,3 +23,8 @@ case('mgso4')
         swEOS.vel=@mgso4_vel; % (S,T,P) [km/s] 
 
 Equations of state are loaded from associated git repositories.
+
+The various releases of Gibbs SeaWater (gsw) may be found here: http://www.teos-10.org/pubs/gsw/html/gsw_version_history.html
+Version 3.02 currently works.  Some outputs from 3.05 are suspect.
+
+
