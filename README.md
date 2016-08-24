@@ -21,3 +21,5 @@ case('mgso4')
         swEOS.pden=@mgso4_pden; % (S,T,P,PR) [kg/m^3] 
         swEOS.ptmp=@mgso4_ptmp; % (S,T,P,PR) [K}
         swEOS.vel=@mgso4_vel; % (S,T,P) [km/s] 
+
+Equations of state are loaded from associated git repositories.
