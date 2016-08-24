@@ -6,6 +6,8 @@ string_EOS: 'mgso4', 'gsw302', 'gsw305'
 
 Output:
 struct_swEOS: contains handles to functions useful for modeling planetary oceans based on oceanographic conventions, but using units often convenient for planetary modeling (concentration in g/kgH2O, pressure in MPa, T in K)
+
+
 For example:
 case('mgso4')
         swEOS.adtg=@mgso4_adtg; % (S,T,P) [K/bar] 
